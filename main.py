@@ -45,6 +45,6 @@ while game:
         if snake.turtles[0].distance(part) < 10:
             food.refresh();
             score.reset_score();
-            snake.reset_snake()
+            snake.reset_snake();
 
 screen.exitonclick()
