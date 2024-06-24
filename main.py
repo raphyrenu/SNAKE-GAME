@@ -21,7 +21,7 @@ screen.onkey(snake.down, 'Down')
 screen.onkey(snake.left, 'Left')
 screen.onkey(snake.right, 'Right')
 
-game = True
+game = True;
 
 while game:
     screen.update()
