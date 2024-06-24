@@ -43,7 +43,7 @@ while game:
     for part in snake.turtles[1:]:
 
         if snake.turtles[0].distance(part) < 10:
-            food.refresh()
+            food.refresh();
             score.reset_score()
             snake.reset_snake()
 
